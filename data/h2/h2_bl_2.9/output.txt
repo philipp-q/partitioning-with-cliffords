@@ -1,0 +1,510 @@
+FCI ENERGY:  -0.9902842376274098
+starting energy wfn: -0.98081
+Starting optimization, alpha = 0.900000
+Starting to Optimize Cluster circuit
+Initializing Generation
+First Generation details: 
+
+Initial Instructions number:  0
+['Z', 'H', 'H', 'CX', 'CY', 'CZ']
+[[0], [4], [2], [3, 2], [5, 1], [5, 2]]
+Initial fitness values:  -0.9814779018731471
+Initial Instructions number:  1
+['CX', 'S', 'Y', 'X#Y#I#H_UCC4c_Z', 'Z', 'CX']
+[[1, 2], [3], [5], [2, 5, 3, 0], [4], [0, 5]]
+Initial fitness values:  -0.9813240427246854
+Initial Instructions number:  2
+['SWAP', 'Y', 'X#I#H#Y_UCC4c_Z', 'Z', 'CX', 'S', 'SWAP']
+[[2, 0], [4], [2, 3, 5, 0], [3], [1, 2], [2], [3, 0]]
+Initial fitness values:  -0.9875440334491653
+Initial Instructions number:  3
+['CY', 'Y', 'Y', 'CY']
+[[5, 2], [4], [0], [2, 5]]
+Initial fitness values:  -0.9805000650658637
+Initial Instructions number:  4
+['SWAP', 'CX', 'CY', 'X', 'S', 'CY', 'H']
+[[1, 3], [5, 0], [5, 3], [2], [0], [2, 3], [3]]
+Initial fitness values:  -0.9806144606267199
+Initial Instructions number:  5
+['SWAP', 'H', 'SWAP', 'Y']
+[[2, 0], [3], [1, 4], [0]]
+Initial fitness values:  -0.9872943207379231
+Initial Instructions number:  6
+['Z', 'I#Y_UCC2c_S', 'Y', 'X', 'Y', 'S']
+[[0], [4, 3], [4], [1], [3], [2]]
+Initial fitness values:  -0.9804822796649986
+Initial Instructions number:  7
+['X#I#Y#H_UCC4c_S', 'H', 'SWAP', 'CX', 'CZ', 'S', 'H#I_UCC2c_Z', 'Y#X#H#I_UCC4c_Z', 'Y#X#I#H_UCC4c_S']
+[[3, 5, 4, 0], [0], [3, 5], [4, 1], [4, 0], [4], [4, 2], [3, 1, 2, 5], [3, 1, 5, 4]]
+Initial fitness values:  -0.8803806309343939
+Initial Instructions number:  8
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2]]
+Initial fitness values:  -0.9808304266520802
+Initial Instructions number:  9
+['CX', 'CX', 'S', 'CY', 'H', 'CY', 'Y#X_UCC2c_Z', 'Y', 'S', 'H', 'SWAP', 'X', 'CX', 'CY', 'I#X_UCC2c_S-dag', 'CY']
+[[1, 0], [1, 4], [4], [2, 5], [4], [3, 4], [2, 4], [0], [3], [5], [0, 5], [4], [3, 5], [4, 3], [2, 5], [5, 3]]
+Initial fitness values:  -0.9805105340022131
+Initial Instructions number:  10
+['CZ', 'H', 'CY', 'Y#H_UCC2c_S-dag', 'CY', 'H', 'Z', 'I#X_UCC2c_S-dag']
+[[1, 2], [0], [0, 5], [0, 5], [0, 5], [5], [4], [5, 4]]
+Initial fitness values:  -0.9812828064643307
+Initial Instructions number:  11
+['H', 'I#Y_UCC2c_Z', 'Z', 'S', 'CY', 'Y', 'S', 'Z']
+[[0], [3, 5], [3], [0], [0, 2], [3], [1], [0]]
+Initial fitness values:  -0.9806350716059714
+Initial Instructions number:  12
+['S', 'CX', 'CY']
+[[1], [4, 5], [1, 5]]
+Initial fitness values:  -0.9813443300264275
+Initial Instructions number:  13
+['CX', 'I#X_UCC2c_S-dag', 'CX', 'CZ', 'H#I_UCC2c_S', 'I#H#X#Y_UCC4c_Z', 'H', 'CY']
+[[1, 3], [5, 3], [1, 0], [0, 2], [5, 4], [4, 5, 0, 1], [0], [2, 5]]
+Initial fitness values:  -0.9835864752866477
+Initial Instructions number:  14
+['Z', 'Y', 'Y#X#I#H_UCC4c_S-dag', 'Y', 'SWAP', 'I#H#Y#X_UCC4c_S']
+[[4], [0], [0, 1, 5, 3], [5], [0, 1], [2, 3, 1, 0]]
+Initial fitness values:  -0.9805111826394612
+Initial Instructions number:  15
+['CY', 'H#X#Y#I_UCC4c_S', 'S', 'CY', 'CX']
+[[2, 3], [0, 2, 4, 5], [3], [3, 4], [1, 2]]
+Initial fitness values:  -0.9884750790723499
+Initial Instructions number:  16
+['Z', 'S', 'X#H_UCC2c_Z', 'H', 'H', 'CX']
+[[5], [5], [4, 3], [2], [1], [1, 4]]
+Initial fitness values:  -0.9810928558896648
+Initial Instructions number:  17
+['Z', 'X', 'H', 'CY', 'S', 'Z', 'H', 'SWAP', 'Y', 'I#H#X#Y_UCC4c_S']
+[[0], [1], [1], [1, 4], [5], [4], [2], [2, 4], [4], [4, 0, 1, 2]]
+Initial fitness values:  -0.980360123774805
+Initial Instructions number:  18
+['Z', 'CX', 'CX', 'CZ', 'CX', 'CZ', 'CY']
+[[3], [2, 3], [2, 1], [0, 2], [3, 0], [2, 1], [5, 2]]
+Initial fitness values:  -0.9811077093035998
+Initial Instructions number:  19
+['Z', 'CX', 'S', 'CX', 'CX', 'H#X#I#Y_UCC4c_S', 'H', 'X', 'Y', 'X', 'X', 'Y', 'CY', 'CZ', 'CX']
+[[3], [3, 4], [0], [2, 5], [0, 3], [1, 3, 4, 2], [2], [1], [1], [3], [5], [5], [5, 0], [4, 3], [2, 5]]
+Initial fitness values:  -0.9823154127358926
+Best member of the Generation: 
+
+Instructions: 
+['CY', 'H#X#Y#I_UCC4c_S', 'S', 'CY', 'CX']
+[[2, 3], [0, 2, 4, 5], [3], [3, 4], [1, 2]]
+fitness value:  -0.9884750790723499
+Epoch:  0
+Best member of the Generation: 
+
+Instructions: 
+['SWAP', 'Y', 'X#I#H#Y_UCC4c_Z', 'Z', 'CX', 'S', 'SWAP', 'S', 'Y', 'H']
+[[2, 0], [4], [2, 3, 5, 0], [3], [1, 2], [2], [3, 0], [0], [4], [5]]
+fitness value:  -0.9885869662998719
+Epoch:  1
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  2
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  3
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  4
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  5
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  6
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  7
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  8
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  9
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  10
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  11
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  12
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  13
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  14
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  15
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  16
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  17
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  18
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  19
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  20
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  21
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  22
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  23
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Epoch:  24
+Best member of the Generation: 
+
+Instructions: 
+['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+[[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+fitness value:  -0.9901591093203964
+Best energy: -0.9901591093203964
+	 with instructions ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H'] [[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+	 optimal parameters [array([-8.02604985e-06-4.06321810e-06j, -5.70744200e-01+8.87315259e-02j,
+       -4.44897917e-01+6.95324746e-02j, -3.12175276e-02+4.90982024e-03j,
+        8.02595457e-06+4.06314988e-06j,  5.02364256e-01-7.80412673e-02j,
+       -4.44920684e-01+6.95364485e-02j,  3.64398385e-02-5.68617807e-03j]), array([ 2.32962177e-06+9.21352190e-06j, -9.21764338e-06+2.31324099e-06j,
+       -2.31324094e-06-9.21764359e-06j,  9.21352192e-06-2.32962200e-06j,
+       -1.00394141e-01-4.89817308e-01j,  4.89848066e-01-1.00244166e-01j,
+        1.00244151e-01+4.89847969e-01j, -4.89817404e-01+1.00394166e-01j])]
+average time:  131.87851099014281
+overall time:  3296.9627747535706
+starting to replace cliffords with non-clifford gates to see if that improves the current fitness
+Starting to replace clifford gates Cluster circuit with non-clifford gates one at a time
+Initial energy after previous Clifford optimization is -0.990231146431256
+Starting with instructions ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H'] [[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]
+Z
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Rz', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.531624001823827]
+var dict {'var0.531624001823827': 0}
+first eval -0.9902695009706052
+vars before comp [0]
+curr vars [0.]
+en before wfn opti -0.9902695009706053
+en after wfn opti -0.9902779552389823
+at iteration 1
+S
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S_nc', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.43599490214200376]
+var dict {'var0.43599490214200376': 0.0}
+first eval -0.9902695009706055
+vars before comp [0.0]
+curr vars [0.00013367]
+en before wfn opti -0.990269515437224
+en after wfn opti -0.9902779658748877
+at iteration 1
+Y
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Ry', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.5507979025745755]
+var dict {'var0.5507979025745755': 0.0}
+first eval -0.9902695009706048
+vars before comp [0.0]
+curr vars [0.00022933]
+en before wfn opti -0.9902695952775354
+en after wfn opti -0.9902780471795158
+at iteration 1
+H
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H_nc', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.9670298390136767]
+var dict {'var0.9670298390136767': 0.0}
+first eval -0.9902695009706051
+vars before comp [0.0]
+curr vars [-0.00018741]
+en before wfn opti -0.9902695884167991
+en after wfn opti -0.9902780354099194
+at iteration 1
+I#Y#H#X_UCC4c_S-dag
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.22199317108973948]
+var dict {var0.22199317108973948: 0.0}
+first eval -0.990269500970605
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.990269500970605
+en after wfn opti -0.9902779552389825
+at iteration 1
+Y
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Ry', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.8928601514360016]
+var dict {'var0.8928601514360016': 0.0}
+first eval -0.9902695009706054
+vars before comp [0.0]
+curr vars [-0.00018741]
+en before wfn opti -0.9902695884167994
+en after wfn opti -0.9902780354099188
+at iteration 1
+Y#I#X#H_UCC4c_Z
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.07630828937395717]
+var dict {var0.07630828937395717: 0.0}
+first eval -0.9902695009706053
+vars before comp [0.0]
+curr vars [0.00013847]
+en before wfn opti -0.9902695160745177
+en after wfn opti -0.9902779662198894
+at iteration 1
+Y
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Ry', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.8734294027918162]
+var dict {'var0.8734294027918162': 0.0}
+first eval -0.9902695009706052
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.9902695009706047
+en after wfn opti -0.9902779552389825
+at iteration 1
+Y
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Ry', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.010374153885699955]
+var dict {'var0.010374153885699955': 0.0}
+first eval -0.9902695009706053
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.9902695009706053
+en after wfn opti -0.9902779552389819
+at iteration 1
+I#X#Y#H_UCC4c_Z
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.771320643266746]
+var dict {var0.771320643266746: 0.0}
+first eval -0.9902695009706046
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.9902695009706052
+en after wfn opti -0.9902779552389822
+at iteration 1
+CZ
+S
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S_nc', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.1802696888767692]
+var dict {'var0.1802696888767692': 0.0}
+first eval -0.9902695009706055
+vars before comp [0.0]
+curr vars [-0.00013847]
+en before wfn opti -0.9902695160745193
+en after wfn opti -0.9902779662198912
+at iteration 1
+CX
+Y
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Ry', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.15416284237967237]
+var dict {'var0.15416284237967237': 0.0}
+first eval -0.9902695009706055
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.990269500970605
+en after wfn opti -0.9902779552389821
+at iteration 1
+X
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'Rx', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.7777024105738202]
+var dict {'var0.7777024105738202': 0.0}
+first eval -0.9902695009706053
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.9902695009706052
+en after wfn opti -0.9902779552389825
+at iteration 1
+Y
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Ry', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.5139433437726902]
+var dict {'var0.5139433437726902': 0.0}
+first eval -0.9902695009706046
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.9902695009706051
+en after wfn opti -0.9902779552389822
+at iteration 1
+X#I#Y#H_UCC4c_Z
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.8488176972685787]
+var dict {var0.8488176972685787: 0.0}
+first eval -0.9902695009706052
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.9902695009706048
+en after wfn opti -0.9902779552389824
+at iteration 1
+H
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H_nc', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.22329107915353885]
+var dict {'var0.22329107915353885': 0.0}
+first eval -0.9902695009706051
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.9902695009706046
+en after wfn opti -0.9902779552389824
+at iteration 1
+Y
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Ry', 'Z', 'S', 'CY', 'CZ', 'H']
+var keys [var0.2946650026871097]
+var dict {'var0.2946650026871097': 0.0}
+first eval -0.9902695009706048
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.990269500970605
+en after wfn opti -0.9902779552389822
+at iteration 1
+Z
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Rz', 'S', 'CY', 'CZ', 'H']
+var keys [var0.5305867556052941]
+var dict {'var0.5305867556052941': 0}
+first eval -0.9902695009706052
+vars before comp [0]
+curr vars [0.]
+en before wfn opti -0.9902695009706051
+en after wfn opti -0.9902779552389822
+at iteration 1
+S
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S_nc', 'CY', 'CZ', 'H']
+var keys [var0.09753360174945158]
+var dict {'var0.09753360174945158': 0.0}
+first eval -0.9902695009706054
+vars before comp [0.0]
+curr vars [0.00013856]
+en before wfn opti -0.9902695160940121
+en after wfn opti -0.9902779662304134
+at iteration 1
+CY
+CZ
+H
+gates before ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H']
+gates after ['Z', 'S', 'Y', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H_nc']
+var keys [var0.5881308010772742]
+var dict {'var0.5881308010772742': 0.0}
+first eval -0.9902695009706051
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -0.9902695009706052
+en after wfn opti -0.990277955238982
+at iteration 1
+best instrucitons after the non-clifford opimizaton
+Best energy: -0.9902780471795158
+	 with instructions ['Z', 'S', 'Ry', 'H', 'I#Y#H#X_UCC4c_S-dag', 'Y', 'Y#I#X#H_UCC4c_Z', 'Y', 'Y', 'I#X#Y#H_UCC4c_Z', 'CZ', 'S', 'CX', 'Y', 'X', 'Y', 'X#I#Y#H_UCC4c_Z', 'H', 'Y', 'Z', 'S', 'CY', 'CZ', 'H'] [[4], [2], [1], [0], [2, 5, 4, 1], [0], [2, 0, 1, 5], [2], [5], [1, 0, 2, 3], [0, 1], [0], [2, 3], [0], [5], [3], [4, 0, 1, 3], [5], [4], [4], [1], [0, 4], [2, 4], [4]]

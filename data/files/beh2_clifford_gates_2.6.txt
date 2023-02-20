@@ -1,0 +1,1 @@
+CX, Z, CX, CY, Y, CX, H, H#I#X#Y_UCC4c_Z, CZ, Y, Y#H_UCC2c_S, CZ, CY, CX, Z, I#X_UCC2c_S, S, X, Y, CX, CX, CZ, X#Y_UCC2c_Z, H#Y#I#X_UCC4c_S-dag, CZ, S, CY, CX, Z, H, H

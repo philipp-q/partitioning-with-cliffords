@@ -1,0 +1,1 @@
+H#X_UCC2c_S-dag, CX, CY, I#H#X#Y_UCC4c_S-dag, CY, CY, I#H#Y#X_UCC4c_S, X#I_UCC2c_Z, H#Y_UCC2c_Z, S, SWAP, H_nc, S, CX, X, Y, X#I#H#Y_UCC4c_S-dag, SWAP, I#X_UCC2c_Z, CZ, CX, CX, Z, CZ, SWAP

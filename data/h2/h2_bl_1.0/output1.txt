@@ -1,0 +1,332 @@
+FCI ENERGY:  -1.1123588962972324
+starting energy wfn: -1.09427
+starting to replace cliffords with non-clifford gates to see if that improves the current fitness
+Starting to replace clifford gates Cluster circuit with non-clifford gates one at a time
+Initial energy after previous Clifford optimization is -1.1123558721071607
+Starting with instructions ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S'] [[0], [2], [3, 5], [2, 4, 0, 3], [3], [0], [4, 5], [0], [5], [0], [0, 1], [2, 1], [1, 2], [5, 4], [3], [1, 3], [0, 3], [3, 0], [3], [3], [3, 2], [3], [5], [5], [0, 2], [5, 0], [0], [4, 0], [1, 5], [3], [0, 1], [3, 0], [5], [4, 2], [4, 3], [3], [2, 3], [2], [2], [5, 4], [0, 3], [3, 1], [3, 1], [2], [3]]
+Y
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Ry', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.417022004702574]
+var dict {'var0.417022004702574': 0.0}
+first eval -1.1123558216993201
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993208
+en after wfn opti -1.1123582337421607
+at iteration 1
+Z
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Rz', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.7203244934421581]
+var dict {'var0.7203244934421581': 0}
+first eval -1.1123558216993203
+vars before comp [0]
+curr vars [0.]
+en before wfn opti -1.1123558216993201
+en after wfn opti -1.1123582337421607
+at iteration 1
+CZ
+I#Y#H#X_UCC4c_S
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.5507979025745755]
+var dict {var0.5507979025745755: 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [1.64078397e-05]
+en before wfn opti -1.1123558247468732
+en after wfn opti -1.112358236331041
+at iteration 1
+Y
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Ry', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.9670298390136767]
+var dict {'var0.9670298390136767': 0.0}
+first eval -1.1123558216993203
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993206
+en after wfn opti -1.1123582337421598
+at iteration 1
+Y
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Ry', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.22199317108973948]
+var dict {'var0.22199317108973948': 0.0}
+first eval -1.1123558216993203
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993203
+en after wfn opti -1.1123582337421605
+at iteration 1
+SWAP
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+X
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'Rx', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.8928601514360016]
+var dict {'var0.8928601514360016': 0.0}
+first eval -1.1123558216993203
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993203
+en after wfn opti -1.1123582337421603
+at iteration 1
+X
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'Rx', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.07630828937395717]
+var dict {'var0.07630828937395717': 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [0.00362535]
+en before wfn opti -1.1123569927889174
+en after wfn opti -1.1123585156408815
+at iteration 1
+H
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H_nc', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.8734294027918162]
+var dict {'var0.8734294027918162': 0.0}
+first eval -1.1123558216993206
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993206
+en after wfn opti -1.1123582337421603
+at iteration 1
+Y#H_UCC2c_S-dag
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.010374153885699955]
+var dict {var0.010374153885699955: 0.0}
+first eval -1.1123558216993203
+vars before comp [0.0]
+curr vars [-1.14570314e-05]
+en before wfn opti -1.1123558218305878
+en after wfn opti -1.1123582338318772
+at iteration 1
+H#X_UCC2c_Z
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.771320643266746]
+var dict {var0.771320643266746: 0.0}
+first eval -1.1123558216993206
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993208
+en after wfn opti -1.1123582337421603
+at iteration 1
+Y#H_UCC2c_Z
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.1802696888767692]
+var dict {var0.1802696888767692: 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993206
+en after wfn opti -1.1123582337421603
+at iteration 1
+CZ
+X
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'Rx', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.15416284237967237]
+var dict {'var0.15416284237967237': 0.0}
+first eval -1.1123558216993206
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993201
+en after wfn opti -1.11235823374216
+at iteration 1
+I#Y_UCC2c_S
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.7777024105738202]
+var dict {var0.7777024105738202: 0.0}
+first eval -1.1123558216993203
+vars before comp [0.0]
+curr vars [0.00529388]
+en before wfn opti -1.112357390433534
+en after wfn opti -1.1123585429304452
+at iteration 1
+CY
+SWAP
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+X
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'Rx', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.5139433437726902]
+var dict {'var0.5139433437726902': 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [-1.09721953e-05]
+en before wfn opti -1.1123558219500338
+en after wfn opti -1.1123582337749234
+at iteration 1
+X
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'Rx', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.8488176972685787]
+var dict {'var0.8488176972685787': 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [-1.09721953e-05]
+en before wfn opti -1.1123558219500331
+en after wfn opti -1.1123582337749234
+at iteration 1
+CZ
+Y
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Ry', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.22329107915353885]
+var dict {'var0.22329107915353885': 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [0.00033239]
+en before wfn opti -1.1123559833450911
+en after wfn opti -1.11235840169713
+at iteration 1
+Z
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Rz', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.5231633414006761]
+var dict {'var0.5231633414006761': 0}
+first eval -1.112355821699321
+vars before comp [0]
+curr vars [1.63926025e-05]
+en before wfn opti -1.1123558231149204
+en after wfn opti -1.1123582346965715
+at iteration 1
+H
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H_nc', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.6503742417395917]
+var dict {'var0.6503742417395917': 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [-2.26282115e-05]
+en before wfn opti -1.112355823870063
+en after wfn opti -1.112358235045904
+at iteration 1
+CZ
+CY
+S
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S_nc', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.09753360174945158]
+var dict {'var0.09753360174945158': 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [-0.00362535]
+en before wfn opti -1.1123569927889123
+en after wfn opti -1.1123585156408762
+at iteration 1
+CZ
+CZ
+S
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S_nc', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.5881308010772742]
+var dict {'var0.5881308010772742': 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993208
+en after wfn opti -1.1123582337421603
+at iteration 1
+CY
+CY
+Y
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Ry', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.04872488080912729]
+var dict {'var0.04872488080912729': 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993206
+en after wfn opti -1.1123582337421605
+at iteration 1
+CX
+SWAP
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+Z
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Rz', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.28910965978981684]
+var dict {'var0.28910965978981684': 0}
+first eval -1.1123558216993203
+vars before comp [0]
+curr vars [0.00529388]
+en before wfn opti -1.1123573904335278
+en after wfn opti -1.1123585429304392
+at iteration 1
+SWAP
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+S
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S_nc', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.5172978838465893]
+var dict {'var0.5172978838465893': 0.0}
+first eval -1.1123558216993203
+vars before comp [0.0]
+curr vars [0.00529388]
+en before wfn opti -1.1123573904335275
+en after wfn opti -1.1123585429304383
+at iteration 1
+S
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S_nc', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+var keys [var0.9600173033359185]
+var dict {'var0.9600173033359185': 0.0}
+first eval -1.1123558216993208
+vars before comp [0.0]
+curr vars [0.00529388]
+en before wfn opti -1.1123573904335275
+en after wfn opti -1.1123585429304386
+at iteration 1
+CX
+CZ
+Y#X_UCC2c_Z
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2_Z', 'CZ', 'Z', 'S']
+var keys [var0.8701241366272119]
+var dict {var0.8701241366272119: 0.0}
+first eval -1.1123558216993203
+vars before comp [0.0]
+curr vars [0.]
+en before wfn opti -1.1123558216993203
+en after wfn opti -1.1123582337421603
+at iteration 1
+CZ
+Z
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Rz', 'S']
+var keys [var0.5822769286725598]
+var dict {'var0.5822769286725598': 0}
+first eval -1.1123558216993201
+vars before comp [0]
+curr vars [0.00529388]
+en before wfn opti -1.1123573904335278
+en after wfn opti -1.1123585429304388
+at iteration 1
+S
+gates before ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S']
+gates after ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2c_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S_nc']
+var keys [var0.4257214105188958]
+var dict {'var0.4257214105188958': 0.0}
+first eval -1.1123558216993203
+vars before comp [0.0]
+curr vars [0.00529388]
+en before wfn opti -1.1123573904335278
+en after wfn opti -1.1123585429304383
+at iteration 1
+best instrucitons after the non-clifford opimizaton
+Best energy: -1.1123585429304452
+	 with instructions ['Y', 'Z', 'CZ', 'I#Y#H#X_UCC4c_S', 'Y', 'Y', 'SWAP', 'X', 'X', 'H', 'Y#H_UCC2c_S-dag', 'H#X_UCC2c_Z', 'Y#H_UCC2c_Z', 'CZ', 'X', 'I#Y_UCC2_S', 'CY', 'SWAP', 'X', 'X', 'CZ', 'Y', 'Z', 'H', 'CZ', 'CY', 'S', 'CZ', 'CZ', 'S', 'CY', 'CY', 'Y', 'CX', 'SWAP', 'Z', 'SWAP', 'S', 'S', 'CX', 'CZ', 'Y#X_UCC2c_Z', 'CZ', 'Z', 'S'] [[0], [2], [3, 5], [2, 4, 0, 3], [3], [0], [4, 5], [0], [5], [0], [0, 1], [2, 1], [1, 2], [5, 4], [3], [1, 3], [0, 3], [3, 0], [3], [3], [3, 2], [3], [5], [5], [0, 2], [5, 0], [0], [4, 0], [1, 5], [3], [0, 1], [3, 0], [5], [4, 2], [4, 3], [3], [2, 3], [2], [2], [5, 4], [0, 3], [3, 1], [3, 1], [2], [3]]

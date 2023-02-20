@@ -1,0 +1,260 @@
+FCI ENERGY:  -0.9928157659233303
+starting energy wfn: -0.93442
+Starting optimization, alpha = 0.900000
+Starting to Optimize Cluster circuit
+Initializing Generation
+First Generation details: 
+
+Initial Instructions number:  0
+['CY', 'CZ', 'X', 'CZ', 'Y']
+[[4, 1], [1, 3], [2], [0, 5], [4]]
+Initial fitness values:  -0.9336315930580349
+Initial Instructions number:  1
+['Z', 'CX', 'Y', 'CY', 'Y#H#I#X_UCC4c_S', 'Z']
+[[4], [4, 3], [2], [2, 1], [4, 1, 0, 2], [1]]
+Initial fitness values:  -0.9530407649699456
+Initial Instructions number:  2
+['SWAP', 'CY', 'CZ', 'CZ', 'H', 'H', 'Y#X#H#I_UCC4c_S-dag', 'I#Y#H#X_UCC4c_S', 'CY', 'CZ', 'X', 'SWAP']
+[[5, 2], [3, 0], [2, 3], [1, 4], [0], [4], [3, 0, 5, 1], [2, 4, 3, 5], [1, 0], [3, 4], [3], [1, 0]]
+Initial fitness values:  -0.8322603035898013
+Initial Instructions number:  3
+['H', 'X']
+[[1], [5]]
+Initial fitness values:  -0.9789131672304139
+Initial Instructions number:  4
+['X#I#H#Y_UCC4c_S-dag', 'CX', 'H', 'SWAP']
+[[1, 2, 4, 0], [3, 1], [0], [3, 2]]
+Initial fitness values:  -0.9580713396142789
+Initial Instructions number:  5
+['H#X#Y#I_UCC4c_S-dag', 'SWAP', 'Y', 'X', 'H']
+[[5, 4, 1, 3], [1, 2], [4], [3], [2]]
+Initial fitness values:  -0.8947290359714215
+Initial Instructions number:  6
+['H#I#X#Y_UCC4c_S', 'Z', 'Y', 'X', 'CZ', 'CX', 'X', 'H', 'CX', 'CY', 'CY']
+[[3, 1, 5, 2], [1], [5], [5], [2, 3], [1, 2], [1], [4], [2, 5], [1, 4], [4, 0]]
+Initial fitness values:  -0.9429435537079782
+Initial Instructions number:  7
+['Z', 'CZ', 'SWAP', 'CY', 'Z', 'X#I#H#Y_UCC4c_S-dag', 'CY', 'Y']
+[[1], [5, 0], [1, 4], [0, 4], [1], [3, 2, 5, 0], [5, 2], [3]]
+Initial fitness values:  -0.9776787928152203
+Initial Instructions number:  8
+['X', 'CX', 'CX', 'Y', 'I#X#Y#H_UCC4c_Z', 'Y', 'H#Y#I#X_UCC4c_S', 'S', 'I#H_UCC2c_S-dag', 'Y', 'S']
+[[0], [4, 5], [0, 4], [2], [1, 0, 3, 4], [5], [0, 3, 4, 1], [4], [5, 2], [5], [1]]
+Initial fitness values:  -0.9593637706606296
+Initial Instructions number:  9
+['Y', 'CY', 'S', 'X', 'H', 'H', 'Y#I#H#X_UCC4c_S-dag', 'CX', 'I#H_UCC2c_S-dag', 'S']
+[[5], [0, 2], [0], [0], [5], [3], [3, 0, 2, 4], [1, 5], [1, 5], [0]]
+Initial fitness values:  -0.9790771103050857
+Initial Instructions number:  10
+['H', 'S', 'Y#H_UCC2c_S-dag', 'H#I#X#Y_UCC4c_S', 'CX', 'H', 'S', 'CY', 'Y', 'X', 'H', 'CZ', 'SWAP', 'H']
+[[1], [0], [3, 0], [1, 5, 3, 2], [4, 2], [4], [3], [4, 1], [5], [2], [5], [3, 1], [0, 3], [3]]
+Initial fitness values:  -0.46900811479274035
+Initial Instructions number:  11
+['SWAP', 'Z', 'CX', 'SWAP', 'CY', 'H', 'CY']
+[[1, 2], [2], [2, 1], [5, 4], [4, 5], [4], [0, 3]]
+Initial fitness values:  -0.9815993603154054
+Initial Instructions number:  12
+['Y', 'S', 'CY', 'H', 'S', 'S', 'X#H_UCC2c_S-dag']
+[[3], [1], [0, 3], [0], [4], [3], [0, 5]]
+Initial fitness values:  -0.9189090369354864
+Initial Instructions number:  13
+['CZ', 'X#Y#I#H_UCC4c_S', 'X#H_UCC2c_Z', 'Y#H_UCC2c_Z', 'Y']
+[[0, 4], [4, 2, 1, 3], [3, 0], [1, 2], [2]]
+Initial fitness values:  -0.9780499174828821
+Initial Instructions number:  14
+['Y', 'S', 'H', 'SWAP', 'X#Y_UCC2c_Z', 'X', 'X', 'SWAP', 'S', 'H#X#Y#I_UCC4c_Z', 'I#Y_UCC2c_Z', 'SWAP', 'H', 'H', 'X#H_UCC2c_S', 'Y']
+[[2], [4], [0], [3, 5], [0, 5], [1], [0], [0, 3], [0], [2, 0, 4, 3], [3, 4], [2, 0], [3], [3], [3, 2], [0]]
+Initial fitness values:  -0.9781630434767312
+Initial Instructions number:  15
+['S', 'CX', 'SWAP', 'CX', 'Y', 'S', 'Y#X#I#H_UCC4c_S']
+[[1], [3, 0], [3, 0], [3, 4], [1], [4], [0, 2, 5, 4]]
+Initial fitness values:  -0.9790887882744426
+Initial Instructions number:  16
+['X#I#H#Y_UCC4c_S-dag', 'S', 'S', 'Z', 'CX', 'CZ', 'CY', 'Z', 'CY']
+[[3, 2, 1, 4], [3], [0], [1], [3, 4], [0, 5], [5, 1], [5], [1, 5]]
+Initial fitness values:  -0.9844135154935196
+Initial Instructions number:  17
+['I#X_UCC2c_S', 'H#Y#X#I_UCC4c_Z', 'CZ', 'SWAP']
+[[3, 2], [2, 1, 0, 5], [3, 5], [2, 1]]
+Initial fitness values:  -0.9793246342736408
+Initial Instructions number:  18
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5]]
+Initial fitness values:  -0.9352256993512291
+Initial Instructions number:  19
+['CX', 'X#H#I#Y_UCC4c_Z', 'Y', 'CX']
+[[0, 1], [2, 5, 4, 1], [5], [4, 2]]
+Initial fitness values:  -0.934578530343505
+Initial Instructions number:  20
+['Y', 'Z', 'X', 'SWAP', 'SWAP', 'H', 'Y']
+[[0], [2], [4], [4, 5], [3, 0], [3], [1]]
+Initial fitness values:  -0.9779811499822768
+Initial Instructions number:  21
+['H', 'X#H_UCC2c_S', 'Z', 'H#X#Y#I_UCC4c_Z', 'S']
+[[3], [1, 4], [5], [0, 3, 2, 5], [2]]
+Initial fitness values:  -0.9286406140100351
+Initial Instructions number:  22
+['CY', 'CZ', 'CZ', 'S', 'X', 'CY', 'S', 'X', 'Y', 'X', 'CX', 'Y#X_UCC2c_Z', 'H', 'CX', 'S']
+[[1, 0], [1, 0], [2, 3], [0], [0], [1, 5], [4], [1], [0], [0], [5, 3], [1, 0], [0], [0, 1], [5]]
+Initial fitness values:  -0.9795318320045583
+Initial Instructions number:  23
+['CX', 'Y#H_UCC2c_S-dag', 'I#H_UCC2c_Z', 'Z', 'CX', 'CY']
+[[4, 1], [0, 2], [5, 0], [4], [4, 2], [5, 3]]
+Initial fitness values:  -0.9349547129484034
+Best member of the Generation: 
+
+Instructions: 
+['X#I#H#Y_UCC4c_S-dag', 'S', 'S', 'Z', 'CX', 'CZ', 'CY', 'Z', 'CY']
+[[3, 2, 1, 4], [3], [0], [1], [3, 4], [0, 5], [5, 1], [5], [1, 5]]
+fitness value:  -0.9844135154935196
+Epoch:  0
+Best member of the Generation: 
+
+Instructions: 
+['Y', 'Z', 'X', 'SWAP', 'SWAP', 'H', 'Y', 'Y#H#X#I_UCC4c_S', 'H#X#Y#I_UCC4c_S-dag', 'Y', 'S', 'I#Y_UCC2c_Z', 'SWAP', 'I#H_UCC2c_S-dag']
+[[0], [2], [4], [4, 5], [3, 0], [3], [1], [4, 2, 0, 5], [3, 0, 1, 4], [1], [5], [2, 0], [5, 1], [1, 2]]
+fitness value:  -0.9901043505910867
+Epoch:  1
+Best member of the Generation: 
+
+Instructions: 
+['Y', 'Z', 'X', 'SWAP', 'SWAP', 'H', 'Y', 'Y#H#X#I_UCC4c_S', 'H#X#Y#I_UCC4c_S-dag', 'Y', 'S', 'I#Y_UCC2c_Z', 'SWAP', 'I#H_UCC2c_S-dag', 'H', 'S', 'S', 'H', 'CZ']
+[[0], [2], [4], [4, 5], [3, 0], [3], [1], [4, 2, 0, 5], [3, 0, 1, 4], [1], [5], [2, 0], [5, 1], [1, 2], [2], [3], [1], [2], [1, 5]]
+fitness value:  -0.9902108244196073
+Epoch:  2
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3]]
+fitness value:  -0.991104024071662
+Epoch:  3
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2]]
+fitness value:  -0.9914285675940495
+Epoch:  4
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2]]
+fitness value:  -0.9914285675940495
+Epoch:  5
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0]]
+fitness value:  -0.9914530465013798
+Epoch:  6
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5]]
+fitness value:  -0.9915849018328367
+Epoch:  7
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4]]
+fitness value:  -0.9916144258700947
+Epoch:  8
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4]]
+fitness value:  -0.9916144258700947
+Epoch:  9
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4]]
+fitness value:  -0.9916144258700947
+Epoch:  10
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4]]
+fitness value:  -0.9916144258700947
+Epoch:  11
+Best member of the Generation: 
+
+Instructions: 
+['Y', 'Z', 'X', 'SWAP', 'SWAP', 'H', 'Y', 'Y#H#X#I_UCC4c_S', 'H#X#Y#I_UCC4c_S-dag', 'Y', 'S', 'I#Y_UCC2c_Z', 'SWAP', 'I#H_UCC2c_S-dag', 'H', 'S', 'S', 'H', 'CZ', 'H', 'CY', 'Y#X_UCC2c_Z', 'Z', 'CY', 'Z', 'CY', 'CY', 'CY', 'CZ', 'CX']
+[[0], [2], [4], [4, 5], [3, 0], [3], [1], [4, 2, 0, 5], [3, 0, 1, 4], [1], [5], [2, 0], [5, 1], [1, 2], [2], [3], [1], [2], [1, 5], [5], [5, 2], [2, 3], [0], [5, 4], [3], [2, 1], [5, 1], [5, 4], [5, 2], [2, 0]]
+fitness value:  -0.991629858230441
+Epoch:  12
+Best member of the Generation: 
+
+Instructions: 
+['Y', 'Z', 'X', 'SWAP', 'SWAP', 'H', 'Y', 'Y#H#X#I_UCC4c_S', 'H#X#Y#I_UCC4c_S-dag', 'Y', 'S', 'I#Y_UCC2c_Z', 'SWAP', 'I#H_UCC2c_S-dag', 'H', 'S', 'S', 'H', 'CZ', 'H', 'CY', 'Y#X_UCC2c_Z', 'Z', 'CY', 'Z', 'CY', 'CY', 'CY', 'CZ', 'CX']
+[[0], [2], [4], [4, 5], [3, 0], [3], [1], [4, 2, 0, 5], [3, 0, 1, 4], [1], [5], [2, 0], [5, 1], [1, 2], [2], [3], [1], [2], [1, 5], [5], [5, 2], [2, 3], [0], [5, 4], [3], [2, 1], [5, 1], [5, 4], [5, 2], [2, 0]]
+fitness value:  -0.991629858230441
+Epoch:  13
+Best member of the Generation: 
+
+Instructions: 
+['Y', 'Z', 'X', 'SWAP', 'SWAP', 'H', 'Y', 'Y#H#X#I_UCC4c_S', 'H#X#Y#I_UCC4c_S-dag', 'Y', 'S', 'I#Y_UCC2c_Z', 'SWAP', 'I#H_UCC2c_S-dag', 'H', 'S', 'S', 'H', 'CZ', 'H', 'CY', 'Y#X_UCC2c_Z', 'Z', 'CY', 'Z', 'CY', 'CY', 'CY', 'CZ', 'CX']
+[[0], [2], [4], [4, 5], [3, 0], [3], [1], [4, 2, 0, 5], [3, 0, 1, 4], [1], [5], [2, 0], [5, 1], [1, 2], [2], [3], [1], [2], [1, 5], [5], [5, 2], [2, 3], [0], [5, 4], [3], [2, 1], [5, 1], [5, 4], [5, 2], [2, 0]]
+fitness value:  -0.991629858230441
+Epoch:  14
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z', 'Y#I_UCC2c_Z', 'Y', 'CZ', 'X', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4], [4, 1], [0], [1, 2], [0], [3, 0]]
+fitness value:  -0.9917218319929425
+Epoch:  15
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z', 'Y#I_UCC2c_Z', 'Y', 'CZ', 'X', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4], [4, 1], [0], [1, 2], [0], [3, 0]]
+fitness value:  -0.9917218319929425
+Epoch:  16
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z', 'Y#I_UCC2c_Z', 'Y', 'CZ', 'X', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4], [4, 1], [0], [1, 2], [0], [3, 0]]
+fitness value:  -0.9917218319929425
+Epoch:  17
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z', 'Y#I_UCC2c_Z', 'Y', 'CZ', 'X', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4], [4, 1], [0], [1, 2], [0], [3, 0]]
+fitness value:  -0.9917218319929425
+Epoch:  18
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z', 'Y#I_UCC2c_Z', 'Y', 'CZ', 'X', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4], [4, 1], [0], [1, 2], [0], [3, 0]]
+fitness value:  -0.9917218319929425
+Epoch:  19
+Best member of the Generation: 
+
+Instructions: 
+['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z', 'Y#I_UCC2c_Z', 'Y', 'CZ', 'X', 'CZ']
+[[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4], [4, 1], [0], [1, 2], [0], [3, 0]]
+fitness value:  -0.9917218319929425
+Best energy: -0.9917218319929425
+	 with instructions ['S', 'CZ', 'X', 'SWAP', 'CY', 'H#Y#X#I_UCC4c_Z', 'CY', 'H', 'CY', 'Z', 'SWAP', 'H#Y_UCC2c_S', 'CX', 'Y', 'CX', 'S', 'Y', 'CY', 'SWAP', 'H', 'SWAP', 'CY', 'CX', 'H#Y#I#X_UCC4c_Z', 'X', 'S', 'CY', 'Y', 'X', 'CZ', 'S', 'CZ', 'CZ', 'Y', 'CY', 'Z', 'Y', 'CZ', 'S', 'Z', 'S', 'Y', 'S', 'X', 'Z', 'Y#I_UCC2c_Z', 'Y', 'CZ', 'X', 'CZ'] [[5], [1, 4], [5], [0, 3], [3, 2], [2, 4, 5, 1], [5, 4], [5], [0, 2], [0], [2, 5], [4, 5], [4, 5], [2], [0, 2], [1], [1], [5, 2], [1, 4], [1], [1, 0], [2, 3], [3, 0], [2, 1, 5, 3], [2], [4], [0, 5], [5], [5], [0, 3], [5], [5, 0], [0, 2], [3], [3, 1], [0], [3], [3, 0], [2], [1], [5], [4], [0], [4], [4], [4, 1], [0], [1, 2], [0], [3, 0]]
+	 optimal parameters [array([ 0.01600417+0.01900085j, -0.01900085+0.01600417j,
+        0.4686888 +0.52887961j,  0.52887961-0.4686888j ,
+       -0.00000001-0.00000001j, -0.00000001+0.00000001j,
+        0.00000023+0.00000022j, -0.00000022+0.00000023j]), array([-0.10757809+0.49231068j, -0.04970201-0.49249494j,
+        0.04937781+0.49305542j, -0.10798813+0.49180954j,
+        0.01868026-0.01683563j, -0.0117719 -0.01438401j,
+        0.01683558+0.01867996j,  0.01438371-0.01177185j])]
+average time:  35.381701266765596
+overall time:  707.6340253353119

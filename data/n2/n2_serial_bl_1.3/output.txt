@@ -1,0 +1,706 @@
+Skip FCI calculation, take old data...
+starting energy wfn: -108.89974
+Starting optimization, alpha = 0.900000
+Starting to Optimize Cluster circuit
+Initializing Generation
+Added a guess from previous runs
+First Generation details: 
+
+Initial Instructions number:  0
+['H', 'CX', 'SWAP', 'Z', 'Z', 'Z', 'H#Y_UCC2c_Z', 'X', 'X', 'S', 'H', 'Z', 'S', 'SWAP', 'CX', 'H#X#Y#I_UCC4c_Z', 'Y', 'H', 'SWAP', 'H', 'X', 'S', 'H', 'X', 'X', 'X', 'S', 'Y#I_UCC2c_S-dag', 'S', 'X#I_UCC2c_S-dag', 'S', 'CY']
+[[8], [2, 0], [6, 10], [3], [11], [0], [2, 5], [1], [4], [10], [1], [2], [9], [7, 4], [11, 10], [1, 0, 3, 9], [7], [4], [3, 5], [9], [11], [6], [4], [2], [5], [3], [9], [10, 7], [10], [3, 7], [2], [10, 11]]
+Initial fitness values:  -108.90756800523015
+Initial Instructions number:  1
+['S', 'H', 'H#I#Y#X_UCC4c_Z', 'X#I#H#Y_UCC4c_Z', 'X', 'X#H#Y#I_UCC4c_Z', 'Z', 'H#I_UCC2c_Z', 'SWAP']
+[[10], [7], [10, 0, 5, 9], [1, 6, 9, 3], [6], [11, 3, 10, 5], [1], [3, 11], [1, 6]]
+Initial fitness values:  -108.89757624349537
+Initial Instructions number:  2
+['SWAP', 'H', 'S']
+[[3, 5], [0], [11]]
+Initial fitness values:  -108.89660545307507
+Initial Instructions number:  3
+['S', 'CZ', 'S', 'S', 'H#X_UCC2c_S', 'CZ']
+[[10], [2, 11], [4], [9], [11, 10], [7, 2]]
+Initial fitness values:  -108.89757269473041
+Initial Instructions number:  4
+['CX', 'CZ', 'CZ', 'CY', 'S']
+[[2, 8], [7, 5], [5, 0], [2, 0], [7]]
+Initial fitness values:  -108.89851765247765
+Initial Instructions number:  5
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9]]
+Initial fitness values:  -108.91172070994907
+Initial Instructions number:  6
+['H', 'S', 'S', 'CZ']
+[[1], [8], [3], [9, 5]]
+Initial fitness values:  -108.9027925879846
+Initial Instructions number:  7
+['CY', 'Y#H#I#X_UCC4c_S', 'H', 'X#H_UCC2c_S']
+[[3, 0], [1, 6, 5, 10], [8], [9, 1]]
+Initial fitness values:  -108.87778426661923
+Initial Instructions number:  8
+['CY', 'Z', 'X', 'Y#H#X#I_UCC4c_S', 'X', 'CY', 'Z', 'H#I_UCC2c_Z', 'H', 'S', 'CZ']
+[[2, 5], [2], [6], [11, 6, 1, 7], [10], [7, 5], [10], [2, 7], [1], [11], [8, 2]]
+Initial fitness values:  -108.87061662397319
+Initial Instructions number:  9
+['X#I#H#Y_UCC4c_S-dag', 'Y', 'H', 'Z', 'X', 'H', 'SWAP', 'X#H_UCC2c_S', 'Z', 'X', 'Y', 'CZ']
+[[4, 1, 9, 6], [4], [2], [3], [3], [6], [3, 9], [10, 4], [1], [8], [2], [0, 10]]
+Initial fitness values:  -108.67693677856259
+Initial Instructions number:  10
+['S', 'CX', 'CY', 'CZ', 'CZ', 'S', 'X#H#Y#I_UCC4c_S', 'H#Y#X#I_UCC4c_S-dag', 'H']
+[[1], [4, 5], [0, 3], [11, 5], [0, 5], [8], [3, 8, 7, 11], [6, 11, 0, 2], [3]]
+Initial fitness values:  -108.67354385929887
+Initial Instructions number:  11
+['I#X_UCC2c_S-dag', 'S', 'S', 'H#I#X#Y_UCC4c_S-dag', 'I#X#Y#H_UCC4c_Z', 'CX']
+[[0, 1], [1], [11], [5, 7, 2, 8], [9, 11, 3, 2], [7, 3]]
+Initial fitness values:  -108.8737781355026
+Initial Instructions number:  12
+['CZ', 'H', 'I#Y_UCC2c_S', 'CX', 'Z', 'CY', 'CX', 'CX', 'Y', 'CZ', 'Z']
+[[10, 11], [3], [10, 1], [4, 0], [0], [6, 10], [8, 2], [8, 1], [10], [9, 7], [6]]
+Initial fitness values:  -108.86200137518233
+Initial Instructions number:  13
+['Y#I_UCC2c_S-dag', 'Z', 'X', 'I#X_UCC2c_S', 'X', 'CY', 'Y', 'CX', 'Z', 'SWAP', 'S', 'Y']
+[[7, 3], [11], [4], [10, 8], [9], [1, 0], [8], [1, 11], [5], [1, 7], [1], [1]]
+Initial fitness values:  -108.88106681127016
+Initial Instructions number:  14
+['H#X_UCC2c_S-dag', 'CZ', 'H', 'X', 'Y', 'H']
+[[9, 2], [6, 9], [7], [7], [8], [3]]
+Initial fitness values:  -108.89389120209403
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9]]
+fitness value:  -108.91172070994907
+Epoch:  0
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0]]
+fitness value:  -108.9179568151858
+Epoch:  1
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0]]
+fitness value:  -108.9179568151858
+Epoch:  2
+Best member of the Generation: 
+
+Instructions: 
+['CX', 'CZ', 'CZ', 'CY', 'S', 'Z', 'Z', 'Y#I_UCC2c_S', 'I#X_UCC2c_S', 'SWAP', 'CY', 'CX', 'X', 'CY', 'Y', 'CY', 'Y', 'Y#H#X#I_UCC4c_S', 'Y', 'CX', 'X', 'SWAP', 'CX', 'Y#H_UCC2c_S-dag']
+[[2, 8], [7, 5], [5, 0], [2, 0], [7], [10], [1], [4, 3], [2, 4], [6, 3], [5, 7], [1, 0], [6], [2, 1], [8], [1, 6], [7], [1, 4, 2, 5], [7], [2, 6], [2], [10, 2], [4, 3], [3, 6]]
+fitness value:  -108.92438187812526
+Epoch:  3
+Best member of the Generation: 
+
+Instructions: 
+['CX', 'CZ', 'CZ', 'CY', 'S', 'Z', 'Z', 'Y#I_UCC2c_S', 'I#X_UCC2c_S', 'SWAP', 'CY', 'CX', 'X', 'CY', 'Y', 'CY', 'Y', 'Y#H#X#I_UCC4c_S', 'Y', 'CX', 'X', 'SWAP', 'CX', 'Y#H_UCC2c_S-dag']
+[[2, 8], [7, 5], [5, 0], [2, 0], [7], [10], [1], [4, 3], [2, 4], [6, 3], [5, 7], [1, 0], [6], [2, 1], [8], [1, 6], [7], [1, 4, 2, 5], [7], [2, 6], [2], [10, 2], [4, 3], [3, 6]]
+fitness value:  -108.92438187812526
+Epoch:  4
+Best member of the Generation: 
+
+Instructions: 
+['CX', 'CZ', 'CZ', 'CY', 'S', 'Z', 'Z', 'Y#I_UCC2c_S', 'I#X_UCC2c_S', 'SWAP', 'CY', 'CX', 'X', 'CY', 'Y', 'CY', 'Y', 'Y#H#X#I_UCC4c_S', 'Y', 'CX', 'X', 'SWAP', 'CX', 'Y#H_UCC2c_S-dag']
+[[2, 8], [7, 5], [5, 0], [2, 0], [7], [10], [1], [4, 3], [2, 4], [6, 3], [5, 7], [1, 0], [6], [2, 1], [8], [1, 6], [7], [1, 4, 2, 5], [7], [2, 6], [2], [10, 2], [4, 3], [3, 6]]
+fitness value:  -108.92438187812526
+Epoch:  5
+Best member of the Generation: 
+
+Instructions: 
+['CX', 'CZ', 'CZ', 'CY', 'S', 'Z', 'Z', 'Y#I_UCC2c_S', 'I#X_UCC2c_S', 'SWAP', 'CY', 'CX', 'X', 'CY', 'Y', 'CY', 'Y', 'Y#H#X#I_UCC4c_S', 'Y', 'CX', 'X', 'SWAP', 'CX', 'Y#H_UCC2c_S-dag']
+[[2, 8], [7, 5], [5, 0], [2, 0], [7], [10], [1], [4, 3], [2, 4], [6, 3], [5, 7], [1, 0], [6], [2, 1], [8], [1, 6], [7], [1, 4, 2, 5], [7], [2, 6], [2], [10, 2], [4, 3], [3, 6]]
+fitness value:  -108.92438187812526
+Epoch:  6
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0]]
+fitness value:  -108.9330187424728
+Epoch:  7
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0]]
+fitness value:  -108.9330187424728
+Epoch:  8
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0]]
+fitness value:  -108.9330187424728
+Epoch:  9
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9]]
+fitness value:  -108.95513344043425
+Epoch:  10
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9]]
+fitness value:  -108.95513344043425
+Epoch:  11
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9]]
+fitness value:  -108.95513344043425
+Epoch:  12
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9]]
+fitness value:  -108.95513344043425
+Epoch:  13
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9]]
+fitness value:  -108.95513344043425
+Epoch:  14
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9], [1, 5], [6, 9], [7]]
+fitness value:  -108.96337625072869
+Epoch:  15
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9], [1, 5], [6, 9], [7]]
+fitness value:  -108.96337625072869
+Epoch:  16
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9], [1, 5], [6, 9], [7]]
+fitness value:  -108.96337625072869
+Epoch:  17
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9], [1, 5], [6, 9], [7]]
+fitness value:  -108.96337625072869
+Epoch:  18
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9], [1, 5], [6, 9], [7]]
+fitness value:  -108.96337625072869
+Epoch:  19
+Best member of the Generation: 
+
+Instructions: 
+['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+[[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9], [1, 5], [6, 9], [7]]
+fitness value:  -108.96337625072869
+Best energy: -108.96337625072869
+	 with instructions ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z'] [[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9], [1, 5], [6, 9], [7]]
+	 optimal parameters [array([-1.23052298e-06+1.35933063e-06j, -1.03827460e-06+1.98796480e-07j,
+        2.59434898e-03+1.61001847e-03j, -5.69639950e-04-4.72088411e-04j,
+        2.49307278e-05+3.62200974e-05j, -9.80554706e-04+4.22848660e-04j,
+        7.20260212e-07+9.88478109e-07j, -9.72203211e-07+2.11884301e-06j,
+        1.01703230e-05-1.94379097e-06j,  1.91847949e-06-9.06112814e-07j,
+        3.45111172e-02+5.31662097e-02j, -3.18718939e-03+1.51354955e-03j,
+       -2.00734475e-05-1.81358471e-05j,  5.27186909e-03-3.36004868e-03j,
+       -2.76620495e-06+8.07378421e-06j,  2.66818283e-06-1.35549149e-07j,
+        1.03622425e-06-1.80195182e-06j, -6.12591800e-08-1.13343037e-06j,
+        3.68074279e-03-9.19629992e-04j, -4.34376896e-04+6.06097867e-04j,
+        3.66518942e-05-2.31650305e-05j, -6.70583872e-04-6.76175573e-04j,
+       -1.86575608e-07+9.44193279e-07j,  1.45889034e-06-7.79932659e-07j,
+        3.36494183e-06-1.39640795e-06j,  1.56984128e-07-1.51391332e-06j,
+       -5.35726224e-02+3.41343869e-02j,  2.10915771e-03+2.44255930e-03j,
+        2.24603166e-05-6.03274121e-06j, -3.39473640e-03-5.23212945e-03j,
+       -4.90631450e-06+2.50889238e-06j,  1.12788829e-05-4.30304107e-06j,
+        4.10271588e-05-6.04819895e-06j,  1.32874383e-05-1.33954235e-06j,
+        3.90639064e-01+5.74711050e-01j, -4.46014992e-03-4.58106053e-03j,
+       -2.20307771e-03-3.28499334e-03j,  6.31200743e-02-3.84799215e-02j,
+        1.71479061e-04-3.76932743e-05j, -6.19133077e-06-5.77095923e-05j,
+       -1.74492804e-07-1.30510802e-06j, -1.71336858e-06+7.01160810e-07j,
+       -6.71194625e-04-3.00517895e-04j, -4.18639394e-05+3.04780037e-05j,
+        2.22222565e-07+2.02886412e-07j,  3.70804509e-05-1.47271683e-05j,
+       -8.07769233e-08+1.12423216e-07j, -1.07824906e-06-6.08304479e-08j,
+       -1.26685540e-05+2.77970197e-05j,  2.63077261e-06+1.23536678e-05j,
+        6.02954227e-01-3.66720446e-01j, -3.67937561e-03+5.75722343e-03j,
+       -3.32560073e-03+2.04842044e-03j,  4.08827484e-02+6.02858216e-02j,
+        1.54504969e-04+1.82101401e-04j, -5.82666526e-05+1.70219747e-05j,
+       -3.02931508e-07+1.89664921e-07j, -7.07361422e-07-1.69216749e-06j,
+        5.40152521e-04-2.27247786e-04j,  3.12303631e-05+3.85023930e-05j,
+       -1.91196201e-07+5.05652239e-07j, -4.93312473e-05-1.52608374e-05j,
+        1.46495442e-07-1.25377403e-07j,  3.01534342e-07+1.47208097e-06j]), array([ 8.82337604e-06-5.82193320e-05j, -4.78174235e-05+2.79313882e-04j,
+        4.33911278e-03-1.77757751e-02j, -1.01347818e-02+4.24934541e-02j,
+        1.82594597e-05-6.12069071e-05j,  1.00954622e-04-2.65338923e-04j,
+       -3.92594641e-03+1.63565593e-02j,  1.04583578e-02-4.24051665e-02j,
+        8.42315086e-02-3.48846947e-01j,  5.75252568e-03-2.32458310e-02j,
+       -5.25901596e-04-8.75009480e-03j,  1.04937639e-04+2.67635799e-04j,
+       -7.97962802e-02+3.30271260e-01j, -5.41740057e-03+2.34005106e-02j,
+        3.86254683e-04+4.96616048e-03j, -1.14247259e-04-2.51177290e-04j,
+       -2.18381623e-05+6.77466684e-05j, -4.76808805e-05+2.81502732e-04j,
+        4.26165999e-03-1.78052328e-02j, -1.01360035e-02+4.25087489e-02j,
+       -9.13087299e-06+5.72336225e-05j,  1.01209035e-04-2.63237673e-04j,
+       -3.99366907e-03+1.63321437e-02j,  1.04596109e-02-4.24212537e-02j,
+        8.41653913e-02-3.48961205e-01j,  5.75059663e-03-2.32572673e-02j,
+       -5.68058177e-04-8.57455972e-03j,  1.06736581e-04+2.60350655e-04j,
+       -7.98941298e-02+3.30476804e-01j, -5.42199939e-03+2.34089229e-02j,
+        3.41060133e-04+5.14569122e-03j, -1.12117812e-04-2.59800481e-04j,
+        2.47479970e-05-1.05900469e-04j,  4.88702546e-05-2.81813576e-04j,
+        4.26172366e-03-1.77948586e-02j,  1.01307802e-02-4.24939335e-02j,
+       -5.32045282e-05+2.21755438e-04j, -1.01518686e-04+2.67942435e-04j,
+       -3.99435304e-03+1.63247233e-02j, -1.04543972e-02+4.24060149e-02j,
+       -8.41231395e-02+3.48820961e-01j,  5.75134461e-03-2.32436376e-02j,
+        5.85804339e-04+8.59000911e-03j,  1.07224492e-04+2.58089692e-04j,
+        7.98658787e-02-3.30365605e-01j, -5.42226422e-03+2.33958880e-02j,
+       -3.59410445e-04-5.15744395e-03j, -1.12635517e-04-2.57549919e-04j,
+        5.54869086e-05-2.31791457e-04j,  4.85806194e-05-2.83943914e-04j,
+        4.33646531e-03-1.77795010e-02j,  1.01245121e-02-4.24991673e-02j,
+       -2.56831587e-05+1.03148084e-04j, -1.01651400e-04+2.65801413e-04j,
+       -3.92328800e-03+1.63590608e-02j, -1.04473219e-02+4.24118970e-02j,
+       -8.41558370e-02+3.48919349e-01j,  5.74920340e-03-2.32474976e-02j,
+        5.46553344e-04+8.76379925e-03j,  1.05452621e-04+2.65357718e-04j,
+        7.97088596e-02-3.30315953e-01j, -5.41439257e-03+2.34009921e-02j,
+       -4.02674549e-04-4.98146881e-03j, -1.14782649e-04-2.48907876e-04j])]
+average time:  8636.393350660801
+overall time:  172727.86701321602
+starting to replace cliffords with non-clifford gates to see if that improves the current fitness
+Starting to replace clifford gates Cluster circuit with non-clifford gates one at a time
+Initial energy after previous Clifford optimization is -108.96356495334607
+Starting with instructions ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z'] [[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9], [1, 5], [6, 9], [7]]
+H
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H_nc', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.417022004702574]
+var dict {'var0.417022004702574': 0.0}
+first eval -108.96702630700406
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.43599490214200376]
+var dict {'var0.43599490214200376': 0.0}
+first eval -108.96702630700412
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.5507979025745755]
+var dict {'var0.5507979025745755': 0.0}
+first eval -108.96702630700412
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.9670298390136767]
+var dict {'var0.9670298390136767': 0.0}
+first eval -108.96702630700406
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.22199317108973948]
+var dict {'var0.22199317108973948': 0.0}
+first eval -108.96702630700413
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.8928601514360016]
+var dict {'var0.8928601514360016': 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+I#H_UCC2c_Z
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.07630828937395717]
+var dict {var0.07630828937395717: 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.8734294027918162]
+var dict {var0.8734294027918162: 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.010374153885699955]
+var dict {var0.010374153885699955: 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.771320643266746]
+var dict {var0.771320643266746: 0.0}
+first eval -108.96702630700406
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.1802696888767692]
+var dict {var0.1802696888767692: 0.0}
+first eval -108.96702630700412
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.15416284237967237]
+var dict {var0.15416284237967237: 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+H
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H_nc', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.7777024105738202]
+var dict {'var0.7777024105738202': 0.0}
+first eval -108.96702630700412
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.5139433437726902]
+var dict {'var0.5139433437726902': 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.8488176972685787]
+var dict {'var0.8488176972685787': 0.0}
+first eval -108.96702630700412
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.22329107915353885]
+var dict {'var0.22329107915353885': 0.0}
+first eval -108.96702630700408
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.2946650026871097]
+var dict {'var0.2946650026871097': 0.0}
+first eval -108.9670263070041
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.6503742417395917]
+var dict {'var0.6503742417395917': 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+Y#I#X#H_UCC4c_S
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.09753360174945158]
+var dict {var0.09753360174945158: 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.5881308010772742]
+var dict {var0.5881308010772742: 0.0}
+first eval -108.96702630700412
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.04872488080912729]
+var dict {var0.04872488080912729: 0.0}
+first eval -108.96702630700405
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.20846053735884262]
+var dict {var0.20846053735884262: 0.0}
+first eval -108.96702630700403
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.5172978838465893]
+var dict {var0.5172978838465893: 0.0}
+first eval -108.96702630700406
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.9600173033359185]
+var dict {var0.9600173033359185: 0.0}
+first eval -108.96702630700412
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+Z
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Rz', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.699512049949576]
+var dict {'var0.699512049949576': 0}
+first eval -108.96702630700409
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.9998672926238792]
+var dict {'var0.9998672926238792': 0}
+first eval -108.96702630700405
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.22006729978285178]
+var dict {'var0.22006729978285178': 0}
+first eval -108.96702630700406
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.361056353964058]
+var dict {'var0.361056353964058': 0}
+first eval -108.96702630700412
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.739840990209437]
+var dict {'var0.739840990209437': 0}
+first eval -108.96702630700412
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.996455725089097]
+var dict {'var0.996455725089097': 0}
+first eval -108.9670263070041
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+X
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'Rx', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.28605382166051563]
+var dict {'var0.28605382166051563': 0.0}
+first eval -108.96702630700408
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.8588892672930397]
+var dict {'var0.8588892672930397': 0.0}
+first eval -108.96702630700403
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.24851012743772993]
+var dict {'var0.24851012743772993': 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.038561680881409655]
+var dict {'var0.038561680881409655': 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.45805494822409054]
+var dict {'var0.45805494822409054': 0.0}
+first eval -108.96702630700415
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.7285071915957256]
+var dict {'var0.7285071915957256': 0.0}
+first eval -108.96702630700406
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+X#Y_UCC2c_S
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.9444966028573069]
+var dict {var0.9444966028573069: 0.0}
+first eval -108.96702630700412
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.38477311951674376]
+var dict {var0.38477311951674376: 0.0}
+first eval -108.96702630700412
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.5468891561453547]
+var dict {var0.5468891561453547: 0.0}
+first eval -108.96702630700408
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.4076870280802861]
+var dict {var0.4076870280802861: 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.25092362374494015]
+var dict {var0.25092362374494015: 0.0}
+first eval -108.96702630700408
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.3745401188473625]
+var dict {var0.3745401188473625: 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+Z
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Rz', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.9507143064099162]
+var dict {'var0.9507143064099162': 0}
+first eval -108.96702630700403
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.7319939418114051]
+var dict {'var0.7319939418114051': 0}
+first eval -108.96702630700409
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.5986584841970366]
+var dict {'var0.5986584841970366': 0}
+first eval -108.96702630700412
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.15601864044243652]
+var dict {'var0.15601864044243652': 0}
+first eval -108.96702630700409
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.15599452033620265]
+var dict {'var0.15599452033620265': 0}
+first eval -108.96702630700412
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.05808361216819946]
+var dict {'var0.05808361216819946': 0}
+first eval -108.9670263070041
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+CZ
+CZ
+CZ
+CZ
+CX
+H
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H_nc', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.3009644558559146]
+var dict {'var0.3009644558559146': 0.0}
+first eval -108.96702630700416
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.49460164553802144]
+var dict {'var0.49460164553802144': 0.0}
+first eval -108.96702630700406
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.6757314155035523]
+var dict {'var0.6757314155035523': 0.0}
+first eval -108.96702630700405
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.8231103407097919]
+var dict {'var0.8231103407097919': 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.8466624072101339]
+var dict {'var0.8466624072101339': 0.0}
+first eval -108.96702630700405
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.42018296714077386]
+var dict {'var0.42018296714077386': 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+CY
+X#H_UCC2c_Z
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.093108286671858]
+var dict {var0.093108286671858: 0.0}
+first eval -108.96702630700408
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.9841918505425767]
+var dict {var0.9841918505425767: 0.0}
+first eval -108.9670263070041
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.08734964290217506]
+var dict {var0.08734964290217506: 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.3651055830226939]
+var dict {var0.3651055830226939: 0.0}
+first eval -108.96702630700406
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.9240351155744253]
+var dict {var0.9240351155744253: 0.0}
+first eval -108.96702630700409
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.30087333004661876]
+var dict {var0.30087333004661876: 0.0}
+first eval -108.96702630700403
+vars before comp [0.0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+Z
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Rz', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+var keys [var0.186945816341878]
+var dict {'var0.186945816341878': 0}
+first eval -108.96702630700409
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.32318267696821945]
+var dict {'var0.32318267696821945': 0}
+first eval -108.96702630700406
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.6657495702883091]
+var dict {'var0.6657495702883091': 0}
+first eval -108.96702630700412
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.5669708009692134]
+var dict {'var0.5669708009692134': 0}
+first eval -108.96702630700409
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.3982539588987647]
+var dict {'var0.3982539588987647': 0}
+first eval -108.9670263070041
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.3794149155245966]
+var dict {'var0.3794149155245966': 0}
+first eval -108.96702630700409
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+CZ
+CY
+CZ
+CZ
+Z
+gates before ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Z']
+gates after ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Rz']
+var keys [var0.010581535878642967]
+var dict {'var0.010581535878642967': 0}
+first eval -108.96702630700408
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.17036560099371212]
+var dict {'var0.17036560099371212': 0}
+first eval -108.96702630700406
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.12339337068010403]
+var dict {'var0.12339337068010403': 0}
+first eval -108.96702630700412
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.692401276404086]
+var dict {'var0.692401276404086': 0}
+first eval -108.96702630700405
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.8744415605726913]
+var dict {'var0.8744415605726913': 0}
+first eval -108.96702630700406
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+var keys [var0.3373969046386234]
+var dict {'var0.3373969046386234': 0}
+first eval -108.96702630700409
+vars before comp [0]
+local variable 'n_qubits' referenced before assignment
+This replacement failed more than 5 times
+best instrucitons after the non-clifford opimizaton
+Best energy: -108.96356495334607
+	 with instructions ['H', 'I#H_UCC2c_Z', 'H', 'Y#I#X#H_UCC4c_S', 'Z', 'X', 'X#Y_UCC2c_S', 'Z', 'CZ', 'CZ', 'CZ', 'CZ', 'CX', 'H', 'CY', 'X#H_UCC2c_Z', 'Z', 'CZ', 'CY', 'CZ', 'CZ', 'Rz'] [[0], [10, 4], [7], [8, 5, 11, 2], [4], [9], [8, 3], [4], [1, 0], [2, 7], [4, 5], [8, 1], [3, 0], [9], [5, 7], [0, 7], [5], [8, 6], [11, 9], [1, 5], [6, 9], [7]]
